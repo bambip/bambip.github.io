@@ -1,0 +1,122 @@
+html {
+    font-size: 16px;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a {
+    font-size: 1.125rem;
+    color:hsl(209, 23%, 60%);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h1,h2,h3 {
+    font-weight: 600;
+    color: hsl(205, 100%, 21%);
+}
+
+
+/*-- Styling --*/
+header {
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+}
+
+.flex-content {
+    display: flex;
+    margin: auto 3.25rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .flex-content {
+    height: 5rem;
+}
+header ul li {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+.icon {
+    height: 2rem;
+    min-width: 2rem;
+}
+.logo span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: inline-block;
+    flex: 1;
+    color: hsl(209, 23%, 60%);
+}
+
+strong {
+    font-weight: 800;
+    color: hsl(205, 100%, 21%);
+}
+
+
+.logo {
+    display: inline;
+}
+.flex li {
+    display: inline;
+    padding: 1rem;
+    
+  }
+.mobil {
+    display: none;
+}
+
+.flex {
+     display: flex;
+ }
+
+@media only screen and (max-width: 860px) {
+.mobil {
+    display: inline-block;
+}
+
+.web {
+    display: none;
+}
+span.web {
+    display: none;
+}
+header ul {
+    justify-content: space-around;
+    margin-left: 5rem;
+}
+header ul.flex li {
+    padding: 0.5rem 0.75rem;
+    margin-right: 1rem;
+  }
+
+header nav {
+    flex: 1;
+  }
+
+svg.mobil {
+    filter: invert(17%) sepia(12%) saturate(5862%) hue-rotate(179deg) brightness(96%) contrast(88%);
+}
+}
