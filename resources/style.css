@@ -48,7 +48,9 @@ header {
     margin: auto 3.25rem;
     align-items: center;
     justify-content: space-between;
+    
 }
+
 
 header .flex-content {
     height: 5rem;
@@ -123,16 +125,22 @@ svg.mobil {
 
 /*Banner*/
 
+section .flex-content {
+    align-items: flex-start;
+}
 section.banner {
     width: 100%;
     margin-bottom: 3.25rem;
     background-color: #f5f5f5;
+    position: relative;
+    padding-top: 5rem;
+    
 }
 
 .imagebanner {
     width: 50%;
     padding: 3rem 0;
-    margin-top: 5rem;
+   
    
 }
 
@@ -146,6 +154,7 @@ section.banner {
     width: 45%;
     line-height: 1;
     margin-left: 3.25rem;
+    align-self: center;
 }
 
 .banner-content p {
@@ -171,5 +180,195 @@ section.banner {
   }
 
 
+  /*how do i dothis  >.<
+
+  @media only screen and (max-width 860px) {
+
+  .flex-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+.imagebanner {
+    margin-top: 10rem;
+}
+  }
+*/
 
 
+/*Main section*/
+
+.content {
+    width: 70%;
+    padding-right: 1.5rem;
+    align-self: stretch;
+    padding-bottom: 3rem;
+
+}
+
+.content img {
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0px 5px 15px hsla(210, 6%, 42%, 0.73);
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+ 
+.content q {
+    line-height: 1.5rem;
+    color: hsl(209, 61%, 16%);
+    font-style: italic;
+}
+
+#signiture {
+    padding-top: 2rem;
+    color: hsl(210, 22%, 49%);
+
+}
+
+.small-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content-small {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: whitesmoke solid 1.5px;
+    border-radius: .5rem;
+}
+
+div.image {
+    display: inline;
+    width: 40%;
+    align-self: stretch;
+}
+
+.image img {
+    width: 80%;
+}
+.content-small image {
+    width: 60%;
+}
+
+.desc {
+    width: 60%;
+}
+
+.desc h3 {
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.desc p {
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+
+/*start learning*/
+
+.title-section {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 3rem 0 3rem 0;
+}
+
+section.start-learning {
+    width: 100%;
+    background-color:#f5f5f5;
+    
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: space-between;
+    padding: 0 5rem;
+}
+
+.feature {
+    padding: 0;
+    background-color: white;
+    width: 95%;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.desc-dir {
+    padding: 1rem .5rem;
+    width: 90%;
+    margin: auto;
+    line-height: 1.5;
+
+}
+
+.feature img {
+    width: 100%;
+    padding: 0 0;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.feature h3 {
+    padding-bottom: .5rem;
+}
+
+.feature li {
+    color: hsl(209, 61%, 16%);
+    
+}
+
+.feature h4 {
+    color: hsl(209, 23%, 60%);
+    padding-bottom: .4rem;
+}
+
+
+/*thesis*/
+
+.thesis-title {
+   width: 100%;
+   text-align: center;
+   padding: 3rem 0 3rem 0;
+}
+
+.video-info-flex {
+width: 60%;
+padding-right: 1.5rem;
+}
+
+.video-info-flex h3 {
+    margin-top: 2rem;
+}
+
+.video-info-flex p {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: #f5f5f5 solid 1.5px;
+    padding: 1rem 1rem 2.5rem 1rem;
+    color: #939393;
+}
+
+footer p {
+    display: inline;
+}
