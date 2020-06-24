@@ -286,7 +286,6 @@ div.image {
 section.start-learning {
     width: 100%;
     background-color:#f5f5f5;
-    
 }
 
 .features-container {
@@ -294,7 +293,7 @@ section.start-learning {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: space-between;
-    padding: 0 5rem;
+    padding: 0 5rem 3rem 5rem;
 }
 
 .feature {
@@ -358,6 +357,8 @@ padding-right: 1.5rem;
 .video-info-flex p {
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
+    line-height: 1.5rem;
+    color: hsl(209, 61%, 16%);
 }
 
 
